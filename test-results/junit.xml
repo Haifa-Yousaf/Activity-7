@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest" tests="9" failures="0" errors="0" time="0.4">
+  <testsuite name="API integration tests" errors="0" failures="0" skipped="0" timestamp="2025-10-31T17:00:26" time="0.303" tests="3">
+    <testcase classname="API integration tests GET /api/ping returns ok" name="API integration tests GET /api/ping returns ok" time="0.042" file="tests/server.test.js">
+    </testcase>
+    <testcase classname="API integration tests POST /api/sum success" name="API integration tests POST /api/sum success" time="0.016" file="tests/server.test.js">
+    </testcase>
+    <testcase classname="API integration tests POST /api/sum invalid input" name="API integration tests POST /api/sum invalid input" time="0.007" file="tests/server.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="calc.add" errors="0" failures="0" skipped="0" timestamp="2025-10-31T17:00:26" time="0.028" tests="3">
+    <testcase classname="calc.add adds positive numbers" name="calc.add adds positive numbers" time="0" file="tests/calc.test.js">
+    </testcase>
+    <testcase classname="calc.add adds negative and positive" name="calc.add adds negative and positive" time="0" file="tests/calc.test.js">
+    </testcase>
+    <testcase classname="calc.add throws on invalid args" name="calc.add throws on invalid args" time="0.003" file="tests/calc.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="displayName" errors="0" failures="0" skipped="0" timestamp="2025-10-31T17:00:26" time="0.034" tests="3">
+    <testcase classname="displayName returns first + last name" name="displayName returns first + last name" time="0.001" file="tests/user.test.js">
+    </testcase>
+    <testcase classname="displayName returns Unknown for incomplete user" name="displayName returns Unknown for incomplete user" time="0" file="tests/user.test.js">
+    </testcase>
+    <testcase classname="displayName returns Unknown for null input" name="displayName returns Unknown for null input" time="0" file="tests/user.test.js">
+    </testcase>
+  </testsuite>
+</testsuites>
